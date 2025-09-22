@@ -1,2 +1,2 @@
 # LearningFlaskFramework
-This folder shows my journey on learning flask framework
+Stepping up my python journey by picking up this framework to lern and build alongside
