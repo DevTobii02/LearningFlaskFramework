@@ -5,5 +5,9 @@ app = Flask(__name__)
 def startflask():
     # return 'Hello World!, I Am LearningFlaskFramework'
     return  render_template("index.html") #renders the index.html page
+
+@app.route("/about")
+def aboutpage():
+    return render_template("about.html")
 if __name__ == '__main__':
     app.run(debug=True)
