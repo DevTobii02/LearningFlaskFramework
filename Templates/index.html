@@ -14,5 +14,11 @@
 <body>
     <h1>Hello There I Am Flask</h1>
     <p>Flask is a python web framework used for building websites</p>
+    <!-- how a for loop is written in flask -->
+    {% for post in posts %}   <!--post because we are creating an iteration/loop to loop through posts dictionary-->
+        <h1>{{post.title}}</h1>
+        <p>By {{post.author}} on {{post.date_posted}}</p>
+        <p>{{post.content}}</p>
+    {% endfor %}
 </body>
 </html>
